@@ -1,0 +1,25 @@
+{
+    "name": "test-oton.io",
+    "version": "1.0.0",
+    "description": "Implementação de um conjunto de testes fim-a-fim no Oton.io",
+    "main": "index.jsx",
+    "dependencies": {
+      "cypress": "^5.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matheusvtna/test-oton.io.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/matheusvtna/test-oton.io/issues"
+    },
+    "homepage": "https://github.com/matheusvtna/test-oton.io#readme"
+}
+
