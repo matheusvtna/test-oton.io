@@ -5,7 +5,7 @@ context('Register', () => {
         cy.wait(200);
     });
 
-    it('create an teacher account', () => {
+    it('create a teacher account', () => {
         cy.get(".form-control[type='email']").type("cypress" + Date.now() + "@cypress.com"); 
         cy.get(".form-control[placeholder='Nome']").type("Professor Cypress"); 
         cy.get('select').select("teacher");
@@ -24,7 +24,7 @@ context('Register', () => {
         cy.url().should('not.include', 'register');
     });
 
-    it('create an student account', () => {
+    it('create a student account', () => {
         cy.get(".form-control[type='email']").type("cypress" + Date.now() + "@cypress.com"); 
         cy.get(".form-control[placeholder='Nome']").type("Estudante Cypress"); 
         cy.get('select').select("student");
